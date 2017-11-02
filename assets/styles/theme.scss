@@ -1,0 +1,52 @@
+.col {
+  border: 1px solid black;
+  height: 100px;
+}
+
+#board {
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 10% auto;
+    width: 300px;
+    height: 100px;
+    & > .row > .col:hover{
+      background: $blue;
+    }
+}
+
+#Player-Stats {
+  color: $black;
+  text-align: center;
+  & th{
+    padding: 20px;
+  }
+}
+
+form{
+  padding: 20px;
+  & > input{
+    display:block;
+  }
+}
+
+//
+// .nav-tabs{
+//   top:5px;
+//   width: 300px;
+//   max-width: 500px;
+//   position: fixed;
+//   background: $blue;
+//   & > .navbar-brand{
+//     margin-bottom:15px;
+//   }
+//
+//   & > li{
+//     float: none;
+//     &:hover{
+//       background:$black;
+//     }
+//   }
+// }
