@@ -25,28 +25,26 @@
   }
 }
 
+.table {
+  width: 300px;
+  margin: 0 auto;
+  text-align: center;
+  color:$simpeblue;
+  background:$simpyellow;
+}
+
+th{
+  text-align: center;
+  & > img{
+    max-height: 50px;
+    margin: 0 auto;
+    padding-bottom: 10px;
+  }
+}
+
 form{
   padding: 20px;
   & > input{
     display:block;
   }
 }
-
-//
-// .nav-tabs{
-//   top:5px;
-//   width: 300px;
-//   max-width: 500px;
-//   position: fixed;
-//   background: $blue;
-//   & > .navbar-brand{
-//     margin-bottom:15px;
-//   }
-//
-//   & > li{
-//     float: none;
-//     &:hover{
-//       background:$black;
-//     }
-//   }
-// }
