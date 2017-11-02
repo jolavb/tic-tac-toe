@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>Example</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+
+      <!-- Do not add `link` tags-->
+      <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+
+      <!-- Do not add `script` tags-->
+      <script src="public/vendor.js" type="text/javascript" charset="utf-8" defer></script>
+      <script src="public/application.js" type="text/javascript" charset="utf-8" defer></script>
+    </head>
+
+    <body>
+
+      <section id='scoreboard'>
+        <table class='table'>
+          <thead>
+            <tr>
+              <th class= 'player-name' colspan="2">
+                <img class='img-responsive'id='player-icon' src='assets/images/User-icon.png' alt='playerlogo'>
+                <p>Player: Julian</p>
+              </th>
+            </tr>
+            <tr>
+              <th>Games Played</th>
+              <th>Score</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <section id='Forms'>
+        <form id='registration'>
+          <legend> Register </legend>
+          <input type='text' placeholder="email">
+          <input type='text' placeholder="password">
+          <input type='text' placeholder="re-enter password">
+          <button type='submit'>Register</button>
+        </form>
+
+        <form id='sign-in'>
+          <legend> Sign In </legend>
+          <input type='text' placeholder="email">
+          <input type='text' placeholder="password">
+          <button type='submit'>Sign In</button>
+        </form>
+
+        <form id='change-password'>
+          <legend> Change Password </legend>
+          <input type='text' placeholder="old password">
+          <input type='text' placeholder="new password">
+          <button type='submit'>Submit</button>
+        </form>
+      </section>
+      <section id='board'>
+        <div class='main-wrapper'>
+            <div class ='container-fluid' id='board'>
+              <div class = 'row'>
+                <div class = 'col col-xs-4'></div>
+                <div class = 'col col-xs-4'></div>
+                <div class = 'col col-xs-4'></div>
+                <div class = 'col col-xs-4'></div>
+                <div class = 'col col-xs-4'></div>
+                <div class = 'col col-xs-4'></div>
+                <div class = 'col col-xs-4'></div>
+                <div class = 'col col-xs-4'></div>
+                <div class = 'col col-xs-4'></div>
+              </div>
+            </div>
+        </div>
+      </section>
+    </body>
+
+
+
+
+</html>
